@@ -4,6 +4,7 @@ import {MapUtil} from "./src/MapUtil";
 export * from './src/ArrayUtil';
 export * from './src/RandomUtil';
 export * from './src/MapUtil';
+export * from './src/RegexUtil';
 if (!Array.prototype.groupBy$ext) {
     Array.prototype.groupBy$ext = function <T, K extends keyof T>(this: T[], key: K): Map<T[K], T[]> {
         return ArrayUtil.groupBy(this, key)

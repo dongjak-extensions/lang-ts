@@ -54,7 +54,7 @@ export class ArrayUtil {
             if (item[parentField]) {
                 const parent = result.find(i => i[idField] === item[parentField]);
                 if (parent) {
-                    parent[childrenField] = parent[childrenField] as T[K] || [] as T[K];
+                    parent[childrenField] = (parent[childrenField] as NonNullable<T>[K]) || ([] as NonNullable<T>[K]);
                     (parent[childrenField] as Array<T>).push(item);
                 }
             } else {
