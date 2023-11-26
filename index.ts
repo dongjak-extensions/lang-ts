@@ -30,15 +30,13 @@ if (!Array.prototype.getSingleOrArray$ext) {
     }
 }
 
-// @ts-ignore
-if(!Map.sortByKeys$ext){
+if(!Map.prototype.sortByKeys$ext){
     // @ts-ignore
     Map.prototype.sortByKeys$ext = function<K,V>(this:Map<K,V>,compareFn: (a: K, b: K) => number = (a, b) => a - b): Map<K, V>{
         return MapUtil.sortByKeys(this,compareFn)
     }
 }
-// @ts-ignore
-if(!Map.sortByKeysDesc$ext){
+if(!Map.prototype.sortByKeysDesc$ext){
     Map.prototype.sortByKeysDesc$ext = function<K,V>(this:Map<K,V>): Map<K, V>{
         return MapUtil.sortByKeysDesc(this)
     }
