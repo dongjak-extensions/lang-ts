@@ -1,5 +1,5 @@
 {
-    "name": "lang-ts",
+    "name": "@dongjak-extensions/lang",
     "version": "1.0.0",
     "description": "ts库项目模板",
     "publishConfig": {
