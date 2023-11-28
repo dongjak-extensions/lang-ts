@@ -84,6 +84,10 @@ export class ArrayUtil {
         }
         return arr
     }
+
+    static isValidArray = (arr: any[]) => {
+        return arr && Array.isArray(arr) && arr.length > 0
+    }
 }
 
 
