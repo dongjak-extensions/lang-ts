@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/dongjak-extensions/lang-ts/compare/v2.0.0...v2.1.0) (2023-11-28)
+
+
+### Features
+
+* 新增正则工具类 ([03204d1](https://github.com/dongjak-extensions/lang-ts/commit/03204d1d333e3d15972e2f9e67b6e95f203c5f10))
+
 # [2.0.0](https://github.com/dongjak-extensions/lang-ts/compare/v1.0.0...v2.0.0) (2023-11-26)
 
 
