@@ -1,7 +1,7 @@
 {
   "name": "@dongjak-extensions/lang",
   "version": "2.1.0",
-  "description": "ts库项目模板",
+  "description": "封装一些常用的类",
   "publishConfig": {
     "access": "public"
   },
