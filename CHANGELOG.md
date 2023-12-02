@@ -1,3 +1,13 @@
+# [2.2.0](https://github.com/dongjak-extensions/lang-ts/compare/v2.1.0...v2.2.0) (2023-12-02)
+
+
+### Features
+
+* vite更新到5 ([ced04fa](https://github.com/dongjak-extensions/lang-ts/commit/ced04fa6c443c5871f4021a43f69b740fc3a6e95))
+* vite更新到5 ([8616d4d](https://github.com/dongjak-extensions/lang-ts/commit/8616d4dca43801ed907acc2fc8a293e1a446b874))
+* **表格工具条:** 列可见性配置工具按钮 ([09ff27b](https://github.com/dongjak-extensions/lang-ts/commit/09ff27be697ab2c652b719e1044bb3cc91e8441f))
+* 车辆编辑 ([5fcfeb7](https://github.com/dongjak-extensions/lang-ts/commit/5fcfeb719fb35944e85e70c52ea667d5837eb699))
+
 # [2.1.0](https://github.com/dongjak-extensions/lang-ts/compare/v2.0.0...v2.1.0) (2023-11-28)
 
 
