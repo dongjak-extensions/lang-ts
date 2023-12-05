@@ -11,8 +11,13 @@
   "type": "module",
   "author": "dongjak-extensions",
   "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "colord": "^2.9.3"
+  },
   "devDependencies": {
     "@types/node": "^20.6.2",
+    "@types/crypto-js": "^4.2.1",
     "typescript": "^5.2.2",
     "vite": "^5.0.4"
   }

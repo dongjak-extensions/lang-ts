@@ -5,6 +5,10 @@ export * from './src/ArrayUtil';
 export * from './src/RandomUtil';
 export * from './src/MapUtil';
 export * from './src/RegexUtil';
+export * from './src/CryptoUtil';
+export * from './src/StorageUtil'
+export * from './src/ColorUtil'
+export {LocalStorage} from './src/StorageUtil'
 if (!Array.prototype.groupBy$ext) {
     Array.prototype.groupBy$ext = function <T, K extends keyof T>(this: T[], key: K): Map<T[K], T[]> {
         return ArrayUtil.groupBy(this, key)
@@ -26,19 +30,19 @@ if (!Array.prototype.random$ext) {
 
 if (!Array.prototype.getSingleOrArray$ext) {
 
-    Array.prototype.getSingleOrArray$ext = function <T>(this: T[]): T|T[] {
+    Array.prototype.getSingleOrArray$ext = function <T>(this: T[]): T | T[] {
         return ArrayUtil.getSingleOrArray(this)
     }
 }
 
-if(!Map.prototype.sortByKeys$ext){
+if (!Map.prototype.sortByKeys$ext) {
     // @ts-ignore
-    Map.prototype.sortByKeys$ext = function<K,V>(this:Map<K,V>,compareFn: (a: K, b: K) => number = (a, b) => a - b): Map<K, V>{
-        return MapUtil.sortByKeys(this,compareFn)
+    Map.prototype.sortByKeys$ext = function <K, V>(this: Map<K, V>, compareFn: (a: K, b: K) => number = (a, b) => a - b): Map<K, V> {
+        return MapUtil.sortByKeys(this, compareFn)
     }
 }
-if(!Map.prototype.sortByKeysDesc$ext){
-    Map.prototype.sortByKeysDesc$ext = function<K,V>(this:Map<K,V>): Map<K, V>{
+if (!Map.prototype.sortByKeysDesc$ext) {
+    Map.prototype.sortByKeysDesc$ext = function <K, V>(this: Map<K, V>): Map<K, V> {
         return MapUtil.sortByKeysDesc(this)
     }
 }
@@ -94,7 +98,7 @@ declare global {
         getSingleOrArray$ext(): T | T[]
     }
 
-    interface Map<K,V> {
+    interface Map<K, V> {
 
         /**
          * 将Map按照key排序,默认升序
