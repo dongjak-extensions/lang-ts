@@ -8,7 +8,6 @@ export * from './src/RegexUtil';
 export * from './src/CryptoUtil';
 export * from './src/StorageUtil'
 export * from './src/ColorUtil'
-export {LocalStorage} from './src/StorageUtil'
 if (!Array.prototype.groupBy$ext) {
     Array.prototype.groupBy$ext = function <T, K extends keyof T>(this: T[], key: K): Map<T[K], T[]> {
         return ArrayUtil.groupBy(this, key)
