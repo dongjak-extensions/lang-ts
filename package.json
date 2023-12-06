@@ -13,12 +13,14 @@
   "license": "MIT",
   "dependencies": {
     "crypto-js": "^4.2.0",
-    "colord": "^2.9.3"
+    "colord": "^2.9.3",
+    "lodash-es": "^4.17.21"
   },
   "devDependencies": {
     "@types/node": "^20.6.2",
     "@types/crypto-js": "^4.2.1",
     "typescript": "^5.2.2",
-    "vite": "^5.0.4"
+    "vite": "^5.0.4",
+    "@types/lodash-es": "^4.17.12"
   }
 }
