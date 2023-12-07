@@ -10,6 +10,7 @@ export * from './src/StorageUtil'
 export * from './src/ColorUtil'
 export * from './src/ObjectUtil'
 export * from './src/StringUtil'
+export * from './src/DataTypeUtil'
 if (!Array.prototype.groupBy$ext) {
     Array.prototype.groupBy$ext = function <T, K extends keyof T>(this: T[], key: K): Map<T[K], T[]> {
         return ArrayUtil.groupBy(this, key)
