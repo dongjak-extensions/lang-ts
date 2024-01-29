@@ -19,6 +19,7 @@
     "deep-diff": "^1.0.2"
   },
   "devDependencies": {
+    "@types/deep-diff": "^1.0.5",
     "@types/lodash": "^4.14.202",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^10.0.4",

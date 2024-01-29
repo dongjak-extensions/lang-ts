@@ -1,6 +1,7 @@
 import {diff} from "deep-diff";
 import lodashGet from "lodash/get";
 import lodashSet from "lodash/set";
+import _ from "lodash";
 
 /**
  * 对象工具类
@@ -147,5 +148,32 @@ export class ObjectUtils {
         }, {} as any);
 
         return updateObject
+    }
+
+
+    /**
+     * 从对象中排除指定的属性
+     *
+     * ### 示例
+     *
+     * ```js
+     * const object = { 'a': 1, 'b': '2', 'c': 3 };
+     * ObjectUtils.omit(object, ['a', 'c']);
+     * // => { 'b': '2' }
+     * ```
+     * @param obj 要排除属性的对象
+     * @param keys 要排除的属性
+     */
+    static omit  = (obj: any, keys: string[]) => {
+        return _.omit(obj, keys)
+    }
+
+
+    /**
+     * 创建对象的深拷贝
+     * @param obj 要拷贝的对象
+     */
+    static cloneDeep = (obj: any) => {
+        return _.cloneDeep(obj)
     }
 }
