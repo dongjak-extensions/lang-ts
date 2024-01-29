@@ -164,7 +164,7 @@ export class ObjectUtils {
      * @param obj 要排除属性的对象
      * @param keys 要排除的属性
      */
-    static omit  = (obj: any, keys: string[]) => {
+    static omit = <T extends object>(obj: T, keys: string[]) => {
         return _.omit(obj, keys)
     }
 
@@ -173,7 +173,7 @@ export class ObjectUtils {
      * 创建对象的深拷贝
      * @param obj 要拷贝的对象
      */
-    static cloneDeep = (obj: any) => {
+    static cloneDeep = <T>(obj: T) => {
         return _.cloneDeep(obj)
     }
 }

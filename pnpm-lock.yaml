@@ -31,6 +31,9 @@ devDependencies:
   '@semantic-release/release-notes-generator':
     specifier: ^11.0.7
     version: 11.0.7(semantic-release@22.0.8)
+  '@types/deep-diff':
+    specifier: ^1.0.5
+    version: 1.0.5
   '@types/jest':
     specifier: ^29.5.5
     version: 29.5.10
@@ -1378,6 +1381,10 @@ packages:
     resolution: {integrity: sha512-mSM/iKUk5fDDrEV/e83qY+Cr3I1+Q3qqTuEn++HAWYjEa1+NxZr6CNrcJGf2ZTnq4HoFGC3zaTPZTobCzCFukA==}
     dependencies:
       '@babel/types': 7.23.5
+    dev: true
+
+  /@types/deep-diff@1.0.5:
+    resolution: {integrity: sha512-PQyNSy1YMZU1hgZA5tTYfHPpUAo9Dorn1PZho2/budQLfqLu3JIP37JAavnwYpR1S2yFZTXa3hxaE4ifGW5jaA==}
     dev: true
 
   /@types/graceful-fs@4.1.9:
