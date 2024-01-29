@@ -15,7 +15,8 @@
   "author": "dongjak-extensions",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "deep-diff": "^1.0.2"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.202",
