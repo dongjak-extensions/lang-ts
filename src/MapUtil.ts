@@ -31,3 +31,8 @@ export class MapUtil {
         return MapUtil.sortByKeys(map, (a, b) => b - a)
     }
 }
+export type EnumMap={
+    name:string
+    title:string
+    [key:string]:any
+}
