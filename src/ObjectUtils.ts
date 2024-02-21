@@ -139,9 +139,9 @@ export class ObjectUtils {
         }
         //把差异部分转成新对象,提交的时候只提交这个差异对象
         updateObject = differences.reduce((acc, diff) => {
-            const diffPropPath = diffPathToObjectPath(diff.path)
-            if (diff.path.length > 0) {
-                ObjectUtils.safeSet(acc, diff.path[0], ObjectUtils.safeGet(newValues, diff.path[0]))
+            const diffPropPath = diffPathToObjectPath(diff.path!!)
+            if (diff.path!!.length > 0) {
+                ObjectUtils.safeSet(acc, diff.path!![0], ObjectUtils.safeGet(newValues, diff.path!![0]))
             }
             ObjectUtils.safeSet(acc, diffPropPath, ObjectUtils.safeGet(newValues, diffPropPath))
             return acc;
