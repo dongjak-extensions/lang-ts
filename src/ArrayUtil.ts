@@ -85,6 +85,11 @@ export class ArrayUtil {
         return arr
     }
 
+
+    /**
+     * 判断是否是一个有效的数组
+     * @param arr
+     */
     static isValidArray = (arr: any[]) => {
         return arr && Array.isArray(arr) && arr.length > 0
     }
