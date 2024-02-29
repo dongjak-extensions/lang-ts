@@ -1,3 +1,10 @@
+# [2.5.0](https://github.com/dongjak-extensions/lang-ts/compare/v2.4.0...v2.5.0) (2024-02-29)
+
+
+### Features
+
+* vite更新到5 ([ea97f0f](https://github.com/dongjak-extensions/lang-ts/commit/ea97f0f09d5699e6c25280918ed34ec13a8f53f2))
+
 # [2.4.0](https://github.com/dongjak-extensions/lang-ts/compare/v2.3.0...v2.4.0) (2024-01-29)
 
 
