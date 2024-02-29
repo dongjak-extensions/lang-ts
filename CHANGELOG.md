@@ -1,3 +1,8 @@
+# [v2.7.0](https://github.com/dongjak-extensions/lang-ts/compare/v2.6.0...v2.7.0) (2024-02-29)
+
+## ✨ New Features
+- [`0b75cf0`](https://github.com/dongjak-extensions/lang-ts/commit/0b75cf0)  更新发布配置
+
 # [v2.6.0](https://github.com/dongjak-extensions/lang-ts/compare/v2.5.0...v2.6.0) (2024-02-29)
 
 ## ✨ New Features
