@@ -1,4 +1,4 @@
-import RandomUtil from "@/utils/RandomUtil";
+import RandomUtil from "./RandomUtil";
 
 export default class ArrayUtil {
     /**

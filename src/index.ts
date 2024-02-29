@@ -1,7 +1,7 @@
-export * from '@/utils/ArrayUtil';
-export * from '@/utils/RandomUtil';
-export * from '@/utils/MapUtil';
-export * from '@/utils/RegexUtil';
-export * from '@/utils/ObjectUtils';
-export * from '@/utils/StreamUtils';
-export * from '@/utils/BufferUtils'
+export {default as ArrayUtil} from './utils/ArrayUtil';
+export {default as RandomUtil} from './utils/RandomUtil';
+export {default as MapUtil, type EnumMap} from './utils/MapUtil';
+export {default as RegexUtil} from './utils/RegexUtil';
+export {default as ObjectUtils} from './utils/ObjectUtils';
+export {default as StreamUtils} from './utils/StreamUtils';
+export {default as BufferUtils} from './utils/BufferUtils'
