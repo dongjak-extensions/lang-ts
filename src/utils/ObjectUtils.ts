@@ -1,7 +1,7 @@
 import {diff} from "deep-diff";
-import lodashGet from "lodash/get";
-import lodashSet from "lodash/set";
-import _ from "lodash";
+import lodashGet from "lodash-es/get";
+import lodashSet from "lodash-es/set";
+import _ from "lodash-es";
 
 /**
  * 对象工具类

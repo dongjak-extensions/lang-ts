@@ -33,6 +33,7 @@
     "@semantic-release/npm": "^11.0.0",
     "@semantic-release/release-notes-generator": "^11.0.7",
     "semantic-release": "^22.0.0",
+    "semantic-release-gitmoji": "^1.6.5",
     "typescript": "^5.2.2",
     "father": "4.3.1"
   }
