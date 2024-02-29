@@ -10,9 +10,9 @@
     "experimentalDecorators": true,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+    /*"paths": {
+      "@*//*": ["./src*//*"]
+    }*/
   },
   "exclude": [
     "node_modules"
