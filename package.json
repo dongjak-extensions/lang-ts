@@ -8,6 +8,8 @@
   "repository": "https://github.com/dongjak-extensions/lang-ts",
   "type": "module",
   "module": "dist/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
