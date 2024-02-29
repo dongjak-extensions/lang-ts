@@ -8,7 +8,8 @@
   "repository": "https://github.com/dongjak-extensions/lang-ts",
   "scripts": {
     "build": "rimraf dist && dts-bundle-generator -o dist/lang-ts.d.ts index.ts  && vite build",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "type-check": "tsc --noEmit"
   },
   "keywords": [],
   "type": "module",
