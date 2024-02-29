@@ -1,4 +1,4 @@
-export class MapUtil {
+export default class MapUtil {
 
     /**
      * 将Map按照key排序,默认升序

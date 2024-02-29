@@ -1,4 +1,4 @@
-export class BufferUtils {
+export default class BufferUtils {
 
     /**
      * 将ArrayBuffer转换为base64

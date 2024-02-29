@@ -1,6 +1,6 @@
 import {RandomUtil} from "./RandomUtil";
 
-export class ArrayUtil {
+export default class ArrayUtil {
     /**
      * 根据指定的键分组
      *
@@ -78,7 +78,7 @@ export class ArrayUtil {
      * 如果数组长度为1,则返回第一个元素,否则返回数组本身
      * @param arr
      */
-    static getSingleOrArray<T>(arr:  T[]): T|T[] {
+    static getSingleOrArray<T>(arr: T[]): T | T[] {
         if (arr.length === 1) {
             return arr[0]
         }

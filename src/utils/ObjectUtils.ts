@@ -10,7 +10,7 @@ import _ from "lodash";
  * @version 1.0
  * @since 1.0
  */
-export class ObjectUtils {
+export  default class ObjectUtils {
 
     /**
      * 安全获取对象的属性值,如果属性不存在,则返回默认值

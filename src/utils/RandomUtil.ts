@@ -1,4 +1,4 @@
-export class RandomUtil {
+export  default class RandomUtil {
 
 
     /**

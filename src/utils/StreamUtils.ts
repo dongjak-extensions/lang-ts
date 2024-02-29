@@ -1,4 +1,4 @@
-export class StreamUtils {
+export  default class StreamUtils {
 
 
     /**
