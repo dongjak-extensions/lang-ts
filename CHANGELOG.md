@@ -1,3 +1,11 @@
+# [v2.6.0](https://github.com/dongjak-extensions/lang-ts/compare/v2.5.0...v2.6.0) (2024-02-29)
+
+## ✨ New Features
+- [`6d8fbb0`](https://github.com/dongjak-extensions/lang-ts/commit/6d8fbb0)  改成用father构建 
+
+## 🐛 Bug Fixes
+- [`c1601e2`](https://github.com/dongjak-extensions/lang-ts/commit/c1601e2)  修复错误的导入
+
 # [2.5.0](https://github.com/dongjak-extensions/lang-ts/compare/v2.4.0...v2.5.0) (2024-02-29)
 
 

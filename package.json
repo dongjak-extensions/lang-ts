@@ -1,6 +1,6 @@
 {
   "name": "@dongjak-extensions/lang",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "description": "封装一些常用的类",
   "publishConfig": {
     "access": "public"
