@@ -1,5 +1,5 @@
 import '../index'
-
+//@ts-ignore
 test('simpleFunction returns correct value', async () => {
     const a = [1, 23, 4]
     console.log(a.getSingleOrArray$ext())
