@@ -19,3 +19,4 @@ export * from './data/Operators';
 export * from './data/Pages';
 export * from './data/QueryPayloads';
 export * from './data/SortDirection';
+export * from './form/IInputProps';
