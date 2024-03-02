@@ -20,3 +20,6 @@ export * from './data/Pages';
 export * from './data/QueryPayloads';
 export * from './data/SortDirection';
 export * from './form/IInputProps';
+export * from './form/SaveOrUpdateFormProps';
+export * from './table/IColumnProps';
+export * from './utils/ColorUtils';
