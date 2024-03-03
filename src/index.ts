@@ -21,5 +21,5 @@ export * from './data/QueryPayloads';
 export * from './data/SortDirection';
 export * from './form/IInputProps';
 export * from './form/SaveOrUpdateFormProps';
-export * from './table/IColumnProps';
+export * from './table/columnProps';
 export * from './utils/ColorUtils';
