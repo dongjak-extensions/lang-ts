@@ -24,8 +24,12 @@ export class ColorUtils {
         }
 
         // 否则，生成一个新的随机颜色
-        const newColor = `#${Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0')}`;
+        // const newColor = `#${Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0')}`;
 
+        const colors = ["#674CCB", "green", "blue", "yellow", "orange", "red", "gray",
+        "#5583FF","#B455D1","#A25A36"
+        ]
+        const newColor = colors[Math.floor(Math.random() * colors.length)];
         // 将新颜色添加到映射中
         mappings[key] = newColor;
 
