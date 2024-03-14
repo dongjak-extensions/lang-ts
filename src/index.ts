@@ -7,7 +7,6 @@ export {default as RegexUtil} from './utils/RegexUtil';
 export {default as ObjectUtils} from './utils/ObjectUtils';
 export {default as StreamUtils} from './utils/StreamUtils';
 export {default as BufferUtils} from './utils/BufferUtils'
-export * from './utils/StringUtils'
 
 
 export * from './web/JsonResponse'
