@@ -1,3 +1,14 @@
+# [v2.8.0](https://github.com/dongjak-extensions/lang-ts/compare/v2.7.0...v2.8.0) (2024-03-07)
+
+## ✨ New Features
+- [`160d1e2`](https://github.com/dongjak-extensions/lang-ts/commit/160d1e2)  实现用户登录 
+- [`bb60560`](https://github.com/dongjak-extensions/lang-ts/commit/bb60560)  添加公共类型 
+- [`49167a4`](https://github.com/dongjak-extensions/lang-ts/commit/49167a4)  新建管理员功能 
+- [`2012f9c`](https://github.com/dongjak-extensions/lang-ts/commit/2012f9c)  管理员编辑功能 
+- [`df69148`](https://github.com/dongjak-extensions/lang-ts/commit/df69148)  用户管理界面 
+- [`c3955e4`](https://github.com/dongjak-extensions/lang-ts/commit/c3955e4)  付费计划管理界面 
+- [`b72737d`](https://github.com/dongjak-extensions/lang-ts/commit/b72737d)  支付通道管理界面
+
 # [v2.7.0](https://github.com/dongjak-extensions/lang-ts/compare/v2.6.0...v2.7.0) (2024-02-29)
 
 ## ✨ New Features
