@@ -1,3 +1,8 @@
+# [v2.8.1](https://github.com/dongjak-extensions/lang-ts/compare/v2.8.0...v2.8.1) (2024-03-14)
+
+## 🐛 Bug Fixes
+- [`286d6ee`](https://github.com/dongjak-extensions/lang-ts/commit/286d6ee)  HIC-25 #time 2h 6m openai助手管理界面
+
 # [v2.8.0](https://github.com/dongjak-extensions/lang-ts/compare/v2.7.0...v2.8.0) (2024-03-07)
 
 ## ✨ New Features
