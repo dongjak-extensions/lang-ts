@@ -7,6 +7,7 @@
 export enum Operator {
     /**
      * 模糊匹配
+     * @deprecated 使用`CONTAINS`代替
      */
     LIKE = "like",
 
