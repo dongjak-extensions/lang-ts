@@ -9,12 +9,10 @@
     "moduleResolution": "node",
     "experimentalDecorators": true,
     "skipLibCheck": true,
-    "allowSyntheticDefaultImports": true,
+    "allowSyntheticDefaultImports": true
     /*"paths": {
-      "@*//*": ["./src*//*"]
+      "@*/ /*": ["./src*/ /*"]
     }*/
   },
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }

@@ -1,4 +1,4 @@
-import {SortDirection} from "./SortDirection";
+import { SortDirection } from './SortDirection';
 
 /**
  * 这个接口用来表示排序条件
@@ -8,14 +8,13 @@ import {SortDirection} from "./SortDirection";
  * @date 2023/10/7
  */
 export interface ISort {
+  /**
+   * 排序的属性
+   */
+  readonly property: string;
 
-    /**
-     * 排序的属性
-     */
-    readonly property: string;
-
-    /**
-     * 排序的方向
-     */
-    readonly direction: SortDirection;
+  /**
+   * 排序的方向
+   */
+  readonly direction: SortDirection;
 }

@@ -1,3 +1,3 @@
-export interface SaveOrUpdateFormProps{
-    editMode?: boolean;
+export interface SaveOrUpdateFormProps {
+  editMode?: boolean;
 }
