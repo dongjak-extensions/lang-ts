@@ -6,9 +6,10 @@ export default class MapUtil {
    * @param compareFn 排序函数
    * @return 排序后的新Map
    */
-  //@ts-ignore
+
   static sortByKeys = <K, V>(
     map: Map<K, V>,
+    //@ts-ignore
     compareFn: (a: K, b: K) => number = (a, b) => a - b
   ) => {
     let sortedKeys = [...map.keys()].sort(compareFn);
