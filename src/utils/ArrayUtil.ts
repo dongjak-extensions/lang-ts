@@ -27,6 +27,23 @@ export default class ArrayUtil {
   };
 
   /**
+   * [lodash.partition的实现](https://www.lodashjs.com/docs/lodash.partition)
+   * @author dongjak
+   * @created 2024/05/02
+   * @version 1.0
+   * @since 1.0
+   */
+  static partition = <T>(arr: T[], predicate: (item: T) => boolean) => {
+    return arr.reduce(
+      (result, item) => {
+        result[predicate(item) ? 0 : 1].push(item);
+        return result;
+      },
+      [[], []] as [T[], T[]]
+    );
+  };
+
+  /**
    * 将数组中的元素按照`parentField`进行分组,并将分组后的元素作为父元素的`childrenField`
    *
    * ### 示例
