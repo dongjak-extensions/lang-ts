@@ -14,7 +14,7 @@ export enum Operator {
   /**
    * 等于
    */
-  EQUALS = '=',
+  EQUALS = 'equals',
 
   /**
    * 不等于
