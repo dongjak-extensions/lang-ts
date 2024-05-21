@@ -1,3 +1,9 @@
+# [v2.9.0](https://github.com/dongjak-extensions/lang-ts/compare/v2.8.1...v2.9.0) (2024-05-21)
+
+## ✨ New Features
+- [`428c469`](https://github.com/dongjak-extensions/lang-ts/commit/428c469)
+ &lt;#DTT#&gt; 用户、账户管理后台
+
 # [v2.8.1](https://github.com/dongjak-extensions/lang-ts/compare/v2.8.0...v2.8.1) (2024-03-14)
 
 ## 🐛 Bug Fixes
