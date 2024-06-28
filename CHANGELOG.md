@@ -1,3 +1,9 @@
+# [v2.10.0](https://github.com/dongjak-extensions/lang-ts/compare/v2.9.0...v2.10.0) (2024-06-28)
+
+## ✨ New Features
+- [`9d11cd0`](https://github.com/dongjak-extensions/lang-ts/commit/9d11cd0)
+  &lt;#DTT#&gt; 裂变管理后台
+
 # [v2.9.0](https://github.com/dongjak-extensions/lang-ts/compare/v2.8.1...v2.9.0) (2024-05-21)
 
 ## ✨ New Features
