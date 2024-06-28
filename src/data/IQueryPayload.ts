@@ -26,5 +26,5 @@ export interface IQueryPayload {
   /**
    * 排序器
    */
-  sorts?: ISort[];
+  sorters?: ISort[];
 }

@@ -18,7 +18,7 @@ export class QueryPayloads {
       pageNo: 1,
       pageSize: 10,
       filters: [],
-      sorts: []
+      sorters: []
     };
   }
 
@@ -39,7 +39,7 @@ export class QueryPayloads {
       pageNo: pageNo,
       pageSize: pageSize,
       filters: filters,
-      sorts: sorts
+      sorters: sorts
     };
   }
 
@@ -51,7 +51,7 @@ export class QueryPayloads {
   static of(filters: IFilter[] = [], sorts: ISort[] = []): IQueryPayload {
     return {
       filters: filters,
-      sorts: sorts
+      sorters: sorts
     };
   }
 }
